@@ -1,0 +1,26 @@
+header {
+    width: 90%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    align-items: center;
+
+    & img {
+    width: 3.75rem;
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & a {
+        font-family: inherit;
+        font-weight: 600;
+        color: black;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
