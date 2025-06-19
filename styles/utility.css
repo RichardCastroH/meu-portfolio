@@ -1,0 +1,14 @@
+.container {
+    margin-top: 3rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons-tech {
+    display: flex;
+    gap: 1rem;
+}
+

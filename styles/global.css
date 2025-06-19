@@ -7,7 +7,15 @@
 }
 
 body {
-    background-color: #FFF1CA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    
+    overflow-x: hidden;
     
     width: 100vw;
     height: 100vh;
@@ -25,8 +33,9 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        display: block;
     }
+
 
     .desktop-only {
         display: none;
