@@ -64,6 +64,20 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #2C2C2C;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+}
+
+.projects-section h1, h3 {
+    cursor: pointer;
+    color: #F5F5F5;
+    text-transform: uppercase;
+}
+
+.projects-section h3 {
+    display: flex;
+    justify-content: center;
 }
 
 .box-projects {
@@ -111,6 +125,7 @@ ul {
 li {
     cursor: pointer;
 }
+
 
 @media screen and (max-width:768px) {
 
