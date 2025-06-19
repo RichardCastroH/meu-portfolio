@@ -126,6 +126,11 @@ li {
     cursor: pointer;
 }
 
+.icons-tech {
+    display: flex;
+    justify-content: center;
+}
+
 
 @media screen and (max-width:768px) {
 
