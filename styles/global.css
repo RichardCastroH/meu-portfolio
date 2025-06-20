@@ -23,7 +23,22 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #212121;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #212121;
+}
+
+strong {
+    color: #212121;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #212121;
 }
 
 @media screen and (max-width:768px) {
