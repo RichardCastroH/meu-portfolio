@@ -28,6 +28,7 @@ a {
 
 h1 {
     text-transform: uppercase;
+    cursor: pointer;
     color: #212121;
 }
 
@@ -54,5 +55,9 @@ h2 {
 
     .desktop-only {
         display: none;
+    }
+
+    h2 {
+        font-size: 1.1rem;
     }
 }
