@@ -51,6 +51,7 @@ nav {
 
     header {
         display: flex;
+        gap:1rem;
         margin-inline: auto;
     }
 }
