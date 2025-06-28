@@ -6,16 +6,21 @@
     -webkit-font-nothing: antialiased;
 }
 
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     display: block;
     background-color: #F5F5F5;
-    margin: 0;
-    padding: 0;
-    
-    overflow-x: hidden;
     
     width: 100vw;
     height: 100vh;

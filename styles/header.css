@@ -5,10 +5,6 @@ header {
     justify-content: space-between;
     margin-inline: auto;
     align-items: center;
-
-    & img {
-    width: 3.2rem;
-    }
 }
 
 nav {
@@ -51,7 +47,9 @@ nav {
 
     header {
         display: flex;
-        gap:1rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         margin-inline: auto;
     }
 }
